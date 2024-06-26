@@ -5,6 +5,8 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: black; /* Fundo preto */
+    color: yellow; /* Texto amarelo */
 }
 
 .container {
@@ -16,6 +18,13 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    background: none; /* Remove fundo */
+    border: none; /* Remove borda */
+    color: yellow; /* Texto amarelo */
+}
+
+button:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
 }
 
 .oculto {
@@ -24,6 +33,7 @@ button {
 
 #resposta {
     text-align: center;
+    color: black; /* Texto preto para a segunda página */
 }
 
 #resposta img {
